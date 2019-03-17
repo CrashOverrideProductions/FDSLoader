@@ -24,7 +24,7 @@ Connects to P2 on the Ram Adapter PCB
       Data prerecorded on FDS disks have already had the 2 aformentioned signals "combined" using an XOR algorithm
       ==============================================================================================================
 
-17/07/19: Continued
+17/03/19: Continued
     Pin Signaling Basic Requirements-
         1   -   Ground:                 Connect to Arduino Ground
         2   -   Motor_Power:            Not Connected
