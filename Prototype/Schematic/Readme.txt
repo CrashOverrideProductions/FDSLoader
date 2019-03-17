@@ -62,7 +62,7 @@ Connects to P2 on the Ram Adapter PCB
                /Scan_Media                   O      Set Low
                /Stop Motor                   O      Set High
                
-        Read Data into RAM Adapter
+        Load Data into RAM Adapter
                /Media_Set                    I      Set Low (Remains Set Throughout Transfer & for a short time after)
                /Writable_Media               I      Set Low (immediatley after /Media_Set (Can be tied to /Media_Set)
                /Scan_Media                   O      Set Low
@@ -74,3 +74,16 @@ Connects to P2 on the Ram Adapter PCB
                     OR                                  Terminates Data Transfer
                /Stop Motor                   O      Set Low
         
+        Write Save Games to File
+               /Media_Set                    I      Set Low (Remains Set Throughout Transfer & for a short time after)
+               /Writable_Media               I      Set Low (immediatley after /Media_Set (Can be tied to /Media_Set)
+               /Scan_Media                   O      Set ?
+               /Stop_Motor                   O      Set ?
+               Motor_On/Batt_Good            I      Set High (Tie directly to VCC = Alway Good) 
+               /Ready                        I      Set Low ( Wait 0.15sec after previous / Remains active during transfer)
+               /Write                        I      Set Low (Sets data transfer direction to read)
+               /Scan_Media                   O      Set High
+                    OR                                  Terminates Data Transfer
+               /Stop Motor                   O      Set Low
+               
+      **** Not 100% Sure on the /Write setup yet......
