@@ -26,6 +26,8 @@ Connects to P2 on the Ram Adapter PCB
 
 17/03/19: Continued
     Pin Signaling Basic Requirements-
+       Pin           Name                       Function
+       ----------------------------------------------------------------------------------------------------------------
         1   -   Ground:                 Connect to Arduino Ground
         
         2   -   Motor_Power:            Not Connected
@@ -34,8 +36,10 @@ Connects to P2 on the Ram Adapter PCB
         5   -   /Write_Gate:            
         6   -   /Scan_Media:            
         7   -   /Motor_Stop:            Stops Data Transfer
-                                           - High = Normal Position | Low = Stop Drive Motor
-        8   -   /Writable_Media:        
+                                           - Pin Low = Stop Drive Motor | Pin High = Normal Position
+                                           
+        8   -   /Writable_Media:        Is the Media Writable?
+                                           - Pin Low = Writable | Pin High = Read Only
         9   -   /Ready:                 
         10  -   /Media_Set:             Sets the Media Present State
                                            - Pin Low = Media Present | Pin High = Media Not Present
