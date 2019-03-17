@@ -31,16 +31,27 @@ Connects to P2 on the Ram Adapter PCB
         1   -   Ground:                 Connect to Arduino Ground
         
         2   -   Motor_Power:            Not Connected
+        
         3   -   Write_Data:             Serial Data Write to Disk
+                                           - Serial Data
+                                           
         4   -   Read_Data:              Serial Data Read from Disk
-        5   -   /Write_Gate:            
-        6   -   /Scan_Media:            
+                                           - Serial Data
+                                           
+        5   -   /Write_Gate:            Unsure ATM
+        
+        6   -   /Scan_Media:            Instructs Storage Media to prepare for transfer
+                                           - Pin Low = Prepare for Transfer | Pin High = No Transfer
+        
         7   -   /Motor_Stop:            Stops Data Transfer
                                            - Pin Low = Stop Drive Motor | Pin High = Normal Position
                                            
         8   -   /Writable_Media:        Is the Media Writable?
                                            - Pin Low = Writable | Pin High = Read Only
-        9   -   /Ready:                 
+                                           
+        9   -   /Ready:                 Informs RAM Adapter that Media is Ready, Must be active during transfers
+                                           - Pin Low = Ready | Pin High = Not Ready
+        
         10  -   /Media_Set:             Sets the Media Present State
                                            - Pin Low = Media Present | Pin High = Media Not Present
                                            
