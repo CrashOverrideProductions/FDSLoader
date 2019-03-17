@@ -29,40 +29,39 @@ Connects to P2 on the Ram Adapter PCB
        Pin           Name                       Function
        ----------------------------------------------------------------------------------------------------------------
         1   -   Ground:                 Connect to Arduino Ground
-        
-        2   -   Motor_Power:            Not Connected
-        
+        2   -   Motor_Power:            Not Connected        
         3   -   Write_Data:             Serial Data Write to Disk
-                                           - Serial Data
-                                           
+                                           - Serial Data                                           
         4   -   Read_Data:              Serial Data Read from Disk
-                                           - Serial Data
-                                           
+                                           - Serial Data                                           
         5   -   /Write_Gate:            Unsure ATM
-        
         6   -   /Scan_Media:            Instructs Storage Media to prepare for transfer
                                            - Pin Low = Prepare for Transfer | Pin High = No Transfer
-        
         7   -   /Motor_Stop:            Stops Data Transfer
                                            - Pin Low = Stop Drive Motor | Pin High = Normal Position
-                                           
         8   -   /Writable_Media:        Is the Media Writable?
                                            - Pin Low = Writable | Pin High = Read Only
-                                           
         9   -   /Ready:                 Informs RAM Adapter that Media is Ready, Must be active during transfers
                                            - Pin Low = Ready | Pin High = Not Ready
-        
         10  -   /Media_Set:             Sets the Media Present State
                                            - Pin Low = Media Present | Pin High = Media Not Present
-                                           
         11  -   Motor_On/Batt_Good:     Connect to VCC via 4k7 Resistor
                                            - Pin Low = No Power to Disk Drive | Pin High = Disk Drive Power Good
-                                           
         12  -   VCC:                    Connect to Arduino +5v
         
         
-    Pin Signaling Ordering and Timing-   
-    
+    Pin Signaling Ordering and Timing-
+        Default Position - No Disc
+               /Media_Set                    I      Set High
+               /Writable_Media               I      Set High
+               /Scan_Media                   O      Set High
+               /Stop_Motor                   O      Set Low
+               Motor_On/Batt_Good            I      Set High (Tie directly to VCC = Alway Good) 
+               /Ready                        I      Set High
+               /Write                        I      Set Low 
+               /Scan_Media                   O      Set Low
+               /Stop Motor                   O      Set High
+               
         Read Data into RAM Adapter
                /Media_Set                    I      Set Low (Remains Set Throughout Transfer & for a short time after)
                /Writable_Media               I      Set Low (immediatley after /Media_Set (Can be tied to /Media_Set)
