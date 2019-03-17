@@ -27,16 +27,20 @@ Connects to P2 on the Ram Adapter PCB
 17/03/19: Continued
     Pin Signaling Basic Requirements-
         1   -   Ground:                 Connect to Arduino Ground
+        
         2   -   Motor_Power:            Not Connected
         3   -   Write_Data:             Serial Data Write to Disk
         4   -   Read_Data:              Serial Data Read from Disk
         5   -   /Write_Gate:            
         6   -   /Scan_Media:            
-        7   -   /Motor_Stop:           Connect to Arduino Reset Pin?
-                                        - High = Normal Position | Low = Stop Drive Motor (Reset Arduino?)
+        7   -   /Motor_Stop:            Stops Data Transfer
+                                           - High = Normal Position | Low = Stop Drive Motor
         8   -   /Writable_Media:        
         9   -   /Ready:                 
-        10  -   /Media_Set:             
+        10  -   /Media_Set:             Sets the Media Present State
+                                           - Pin Low = Media Present | Pin High = Media Not Present
+                                           
         11  -   Motor_On/Batt_Good:     Connect to VCC via 4k7 Resistor
                                            - Pin Low = No Power to Disk Drive | Pin High = Disk Drive Power Good
+                                           
         12  -   VCC:                    Connect to Arduino +5v
