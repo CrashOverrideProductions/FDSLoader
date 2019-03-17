@@ -4,8 +4,7 @@ Eagle Schematic File and PDF included
 Connects to P2 on the Ram Adapter PCB
     Header Part Number:    B12B-PH-KS (Digikey)
     Plug Part Number:      PHR-12 (Digikey)
-    * Closest Match - Ram Adapter end may need 
-      locking tabs cut off from plug
+    * Closest Match - Ram Adapter end may need locking tabs cut off from plug
 
 
 17/03/19:
