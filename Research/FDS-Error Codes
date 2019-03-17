@@ -1,0 +1,22 @@
+ERROR 01 Disk not correctly inserted. (No Disk Card)
+ERROR 02 Battery error. Check power adaptor or batteries.
+ERROR 03 Broken prong on disk card.
+ERROR 04 Wrong gamemaker ID.
+ERROR 05 Wrong game name.
+ERROR 06 Wrong version name.
+ERROR 07 A, B side error (eject disk, turn and insert disk again).
+ERROR 08 Disk #1 wrong.
+ERROR 09 Disk #2 wrong.
+ERROR 10 Disk #3 wrong.
+ERROR 20 screen data differs.
+ERROR 21 Disk header block(NINTENDO-HVC) part is wrong.
+ERROR 22 Disk header block reecognition #$01 isn’t read and cant be ignored.
+ERROR 23 File recognition block #$02 can’t read for several reasons and cant be ignored.
+ERROR 24 File header block recognition #$03 can’t read and cant be ignored.
+ERROR 25 File data block recognition #$04 can’t read and cant be ignored.
+ERROR 26 Can’t save properly to disk card.
+ERROR 27 Block end mark seen and ends prematurely.
+ERROR 28 The disk unit and the same period can’t take it.
+ERROR 29 The disk unit and the same period can’t take it.
+ERROR 30 Disk card too full to save.
+ERROR 31 Data number of a disk card doesn’t match up.
