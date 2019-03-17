@@ -1,6 +1,12 @@
 Prototype Schematic for FDS SD Loader
 Eagle Schematic File and PDF included
 
+Connects to P2 on the Ram Adapter PCB
+    Header Part Number:    B12B-PH-KS (Digikey)
+    Plug Part Number:      PHR-12 (Digikey)
+    * Closest Match - Ram Adapter end may need 
+      locking tabs cut off from plug
+
 
 17/03/19:
   Schematic is almost a copy of the QDC ATMega-164 schematic which appears to be based upon the FMD-POWER-05 PCB
