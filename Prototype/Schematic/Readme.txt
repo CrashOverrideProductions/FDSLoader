@@ -59,3 +59,19 @@ Connects to P2 on the Ram Adapter PCB
                                            - Pin Low = No Power to Disk Drive | Pin High = Disk Drive Power Good
                                            
         12  -   VCC:                    Connect to Arduino +5v
+        
+        
+    Pin Signaling Ordering and Timing-   
+    
+        Read Data into RAM Adapter
+               /Media_Set                    I      Set Low (Remains Set Throughout Transfer & for a short time after)
+               /Writable_Media               I      Set Low (immediatley after /Media_Set (Can be tied to /Media_Set)
+               /Scan_Media                   O      Set Low
+               /Stop_Motor                   O      Set High
+               Motor_On/Batt_Good            I      Set High (Tie directly to VCC = Alway Good) 
+               /Ready                        I      Set Low ( Wait 0.15sec after previous / Remains active during transfer)
+               /Write                        I      Set High (Sets data transfer direction to read)
+               /Scan_Media                   O      Set High
+                    OR                                  Terminates Data Transfer
+               /Stop Motor                   O      Set Low
+        
