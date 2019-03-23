@@ -87,3 +87,17 @@ Connects to P2 on the Ram Adapter PCB
                /Stop Motor                   O      Set Low
                
       **** Not 100% Sure on the /Write, /Read, /Read_Gate setup yet......
+
+23/03/19:    
+    Functions 
+        Remove Disk / No Disk
+            Clear Media_Set
+            Clear Ready
+            
+        Insert Disk
+        
+        
+        Change Side
+        
+
+
