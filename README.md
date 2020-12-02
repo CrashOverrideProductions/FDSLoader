@@ -55,3 +55,5 @@ The goal of this project is to try and emulate a Famicom Disk System using a "Mi
 **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
 No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+One Last Note: I intent to be meticulous in using community generated documents and schematics where i cant easily reverse engineer things myself, under no circumstances will any Official/Leaked Nintendo Interlectual Property be used in this project (e.g. Actual Nintendo Schematics are covered by Copyright, however the circuit is not and therefore can be published if a third party person draws and publishes thier own reverse engineered schematic)
