@@ -4,7 +4,7 @@
 
 
 <!-- Repo Cover Image -->
-<img alt="" align="right" src="https://github.com/CrashOverrideProductions/FDSLoader/blob/master/Images/FDS-Main.jpg?raw=true" />
+<img alt="" align="center" src="https://github.com/CrashOverrideProductions/FDSLoader/blob/master/Images/FDS-Main.jpg?raw=true" />
 
 
 <!-- To Do List -->
