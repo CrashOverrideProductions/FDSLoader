@@ -4,12 +4,16 @@
 <img alt="" src="https://img.shields.io/badge/Status-Research-informational?style=flat&logoColor=white&color=73398D" />
 </p>
 
+## **Project**: Arduino Based SD Loader for the Famicom Disk System
+
+
+<p align="center">
 <!-- Repo Cover Image -->
-![Famicom Disk System](https://github.com/CrashOverrideProductions/FDSLoader/blob/master/Images/FDS-Main.jpg?raw=true)
+<img alt="" src="https://github.com/CrashOverrideProductions/FDSLoader/blob/master/Images/FDS-Main.jpg?raw=true"
 
 
+</p>
 
-Project: Arduino Based SD Loader for the Famicom Disk System
 
 ### TO DO List
 - [] List Items Here
