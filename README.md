@@ -5,7 +5,7 @@
 </p>
 
 <!-- Repo Cover Image -->
-![Famicom Disk System](https://octodex.github.com/images/yaktocat.png)
+![Famicom Disk System](https://github.com/CrashOverrideProductions/FDSLoader/blob/master/Images/FDS-Main.jpg?raw=true)
 
 
 
