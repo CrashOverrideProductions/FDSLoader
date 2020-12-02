@@ -8,6 +8,11 @@
 <img alt="" align="center" src="https://github.com/CrashOverrideProductions/FDSLoader/blob/master/Images/FDS-Main.jpg?raw=true" />
 </p>
 
+<!-- Repo Stats -->
+<p align="center"></p>
+<img alt="Github Comit Activity"  src="https://img.shields.io/github/commit-activity/m/CrashOverrideProductions/FDSLoader"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/CrashOverrideProductions/FDSLoader"> <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/CrashOverrideProductions/FDSLoader"> <img alt="GitHub repo file count" src="https://img.shields.io/github/directory-file-count/CrashOverrideProductions/FDSLoader">
+</p>
+
 <!-- Other Intro -->
 ### What is The Famicom Disk System
 The Family Computer Disk System is a peripheral for Nintendo's Family Computer home video game console, released only in Japan on February 21, 1986. It uses proprietary floppy disks called "Disk Cards" for cheaper data storage and it adds a new high-fidelity sound channel for supporting Disk System games.
@@ -17,7 +22,6 @@ Fundamentally, the Disk System serves simply to enhance some aspects already inh
 By 1989, the Famicom Disk System was inevitably obsoleted by the improving semiconductor technology of game cartridges. The Disk System's lifetime sales reached 4.4 million units by 1990, its final game was released in 1992, and Nintendo officially discontinued its technical support in 2003.
 
 <p align="right"> - Wikipedia (https://en.wikipedia.org/wiki/Famicom_Disk_System)</p>
-
 
 <!-- Repo Intro -->
 ### Details
