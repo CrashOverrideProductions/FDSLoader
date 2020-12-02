@@ -1,11 +1,12 @@
-## FDSLoader ![](https://img.shields.io/badge/%20-Famicom-informational?style=flat&logo=Nintendo&logoColor=white&color=8F8F8F) ![](https://img.shields.io/badge/Platform-Arduino-informational?style=flat&logo=Arduino&logoColor=white&color=00979D) ![](https://img.shields.io/badge/IDE-Visual%20Studio-informational?style=flat&logo=Visual%20Studio&logoColor=white&color=5C2D91) 
+## FDSLoader <img alt="" align="right" src="https://img.shields.io/badge/IDE-Visual%20Studio-informational?style=flat&logo=Visual%20Studio&logoColor=white&color=5C2D91" /> <img alt="" align="right" src="https://img.shields.io/badge/Platform-Arduino-informational?style=flat&logo=Arduino&logoColor=white&color=00979D" /> <img alt="" align="right" src="https://img.shields.io/badge/%20-Famicom-informational?style=flat&logo=Nintendo&logoColor=white&color=8F8F8F" />
 
-### **Project**: Arduino Based SD Loader for the Famicom Disk System <img alt="" align="right" src="https://img.shields.io/badge/Status-Research-informational?style=flat&logoColor=white&color=73398D" />
+### **Project**: Arduino Based SD Loader for the Famicom Disk System <img alt="" align="right" src="https://img.shields.io/badge/Status-Research%20Phase-informational?style=flat&logoColor=white&color=73398D" />
 
 
 <!-- Repo Cover Image -->
+<p align="center">
 <img alt="" align="center" src="https://github.com/CrashOverrideProductions/FDSLoader/blob/master/Images/FDS-Main.jpg?raw=true" />
-
+</p>
 
 <!-- To Do List -->
 ### To Do List
