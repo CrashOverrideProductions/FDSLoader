@@ -8,6 +8,17 @@
 <img alt="" align="center" src="https://github.com/CrashOverrideProductions/FDSLoader/blob/master/Images/FDS-Main.jpg?raw=true" />
 </p>
 
+<!-- Other Intro -->
+### What is The Famicom DIsk System
+The Family Computer Disk System is a peripheral for Nintendo's Family Computer home video game console, released only in Japan on February 21, 1986. It uses proprietary floppy disks called "Disk Cards" for cheaper data storage and it adds a new high-fidelity sound channel for supporting Disk System games.
+
+Fundamentally, the Disk System serves simply to enhance some aspects already inherent to the base Famicom system, with better sound and cheaper games—though with the disadvantages of high initial price, slow speed, and lower reliability. However, this boost to the market of affordable and writable mass storage temporarily served as an enabling technology for the creation of new types of video games. This includes the vast, open world, progress-saving adventures of the best-selling The Legend of Zelda (1986) and Metroid (1986), games with a cost-effective and swift release such as the best-selling Super Mario Bros. 2, and nationwide leaderboards and contests via the in-store Disk Fax kiosks, which are considered to be forerunners of today's online achievement and distribution systems.
+
+By 1989, the Famicom Disk System was inevitably obsoleted by the improving semiconductor technology of game cartridges. The Disk System's lifetime sales reached 4.4 million units by 1990, its final game was released in 1992, and Nintendo officially discontinued its technical support in 2003.
+
+<p align="right"> - Wikipedia (https://en.wikipedia.org/wiki/Famicom_Disk_System)</p>
+
+
 <!-- Repo Intro -->
 ### Details
 The goal of this project is to try and emulate a Famicom Disk System using a "Mico Computing Board" such as an ATMega2560 (Arduino Mega) or a STM32 micro controller
@@ -28,7 +39,7 @@ The goal of this project is to try and emulate a Famicom Disk System using a "Mi
 <!-- Licencing Always at the Bottom -->
 ### Licencing <img alt="" align="right" src="https://img.shields.io/badge/Licence-CC--BY--NC--SA--4.0-informational?style=flat&logo=Creative%20Commons&logoColor=white&color=EF9421" />
 
-**Attribution - NonCommercial - ShareAlike 4.0 International (CC BY-NC-SA 4.0)**
+**Creative Commons: Attribution - NonCommercial - ShareAlike 4.0 International (CC BY-NC-SA 4.0)**
 
 **You are free to:**
 **Share** — copy and redistribute the material in any medium or format
