@@ -4,7 +4,7 @@
 <img alt="" src="https://img.shields.io/badge/Status-Research-informational?style=flat&logoColor=white&color=73398D" />
 </p>
 
-## **Project**: Arduino Based SD Loader for the Famicom Disk System
+### **Project**: Arduino Based SD Loader for the Famicom Disk System
 
 
 <p align="center">
@@ -16,4 +16,4 @@
 
 
 ### TO DO List
-- [] List Items Here
+- [ ] List Items Here
