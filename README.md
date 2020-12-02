@@ -9,9 +9,7 @@
 </p>
 
 <!-- Repo Stats -->
-<p align="center"></p>
-<img alt="Github Comit Activity"  src="https://img.shields.io/github/commit-activity/m/CrashOverrideProductions/FDSLoader"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/CrashOverrideProductions/FDSLoader"> <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/CrashOverrideProductions/FDSLoader"> <img alt="GitHub repo file count" src="https://img.shields.io/github/directory-file-count/CrashOverrideProductions/FDSLoader">
-</p>
+<img align="center" src="https://img.shields.io/github/commit-activity/m/CrashOverrideProductions/FDSLoader"> <img align="center" src="https://img.shields.io/github/last-commit/CrashOverrideProductions/FDSLoader"> <img align="center" src="https://img.shields.io/github/languages/code-size/CrashOverrideProductions/FDSLoader"> <img align="center" src="https://img.shields.io/github/directory-file-count/CrashOverrideProductions/FDSLoader">
 
 <!-- Other Intro -->
 ### What is The Famicom Disk System
