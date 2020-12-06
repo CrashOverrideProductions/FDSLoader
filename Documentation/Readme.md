@@ -11,7 +11,7 @@
 - [ ] List Items Here
 - [ ] List Items Here
 
-## Cable Pinout and Logic States
+## Cable Pin Logic States
  --------==---------   <br/>
 | 1  3  5  7  9  11 |  <br/>
 | 2  4  6  8 10  12 | 
