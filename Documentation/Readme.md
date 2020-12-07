@@ -54,6 +54,31 @@ The order in which events occur, is as follows
 ###### Final Notes
 Some unlicenced FDS games activate the "/Stop Motor" signal and possibly "Write", even though the storage media is not intended to be written to when a media transfer is to be discontinued, while "/Scan Media" is still active, the best way to handle this situation is to give the "Stop Motor" signal priority over others and force data transfers to terminate during its activation
 
+## Famicom Disk System Error Codes
+01. Disk not Correctly Inserted (No Disk)
+02. Battery Error
+03. Broken Prong on Disk Card
+04. Wring Gamemake ID
+05. Wrong Game Name
+06. Wrong Version Name
+07. A, B Side Error (Eject Disk, Turn Over and Insert Disk Again)
+08. Disk #1 Wrong
+09. Disk #2 Wrong
+10. Disk #3 Wrong
+20. Screen Data Differs
+21. Disk Header Block (NINTENDO-HVC) Wrong
+22. Disk Header Block Recognition #$01 Not Read
+23. File Recognition Block #$02 Can't be Read
+24. File Header Recognition Block #$03 Can't be Read
+25. File Data Block Recognition #$04 Can't be Read
+26. Can't Save Properly to Disk
+27. Block End Mark Seen and Ends Prematurley
+28. The Disk Unit and the Same Period Can't Take It
+29. The Disk Unit and the Same Period Can't Take It
+30. Disk Card too Full to Save
+31. Data Number of a Disk Card Doesn't Match Up
+
+
 <!-- Licencing Always at the Bottom -->
 ## Licencing <img alt="" align="right" src="https://img.shields.io/badge/Licence-CC--BY--NC--SA--4.0-informational?style=flat&logo=Creative%20Commons&logoColor=white&color=EF9421" />
 
