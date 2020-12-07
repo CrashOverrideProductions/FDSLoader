@@ -5,6 +5,8 @@
 ### To Do List
 - [x] Define Cable Pinout
 - [x] List Pin Logic States
+- [ ] Define Emulation Procedure 
+- [x] List RAM Adapter Error Codes
 - [ ] Define Rom Transfer Procedure
 
 - [ ] List Items Here
